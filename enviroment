@@ -1,0 +1,10 @@
+* instalar node.js sudo apt-get install npm
+* instalar express, body-parser, cookie-parser, multer  
+npm install
+npm install paqxx --save
+
+Tuve problemas al instalar npm y node porque express requeria de una version mas reciente que 
+ubuntu 12.04 no me daba.
+
+
+
