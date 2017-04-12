@@ -12,10 +12,6 @@ app.get('/index.html', function(req, res){
 })
 
 
-app.get('/test.html', function(req, res){
-  res.sendFile(__dirname + "/" + "test.html");  
-})
-
 var server = app.listen(3000, function() {
     var host = server.address().address
     var port = server.address().port
